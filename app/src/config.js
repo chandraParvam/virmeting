@@ -26,7 +26,7 @@ module.exports = {
         /*
             timeZone: Time Zone corresponding to timezone identifiers from the IANA Time Zone Database es 'Europe/Rome' default UTC
         */
-        timeZone: 'UTC',
+        timeZone: 'Asia/Kolkata',
         debug: true,
         colors: true,
     },
@@ -68,7 +68,7 @@ module.exports = {
         */
         IpWhitelist: {
             enabled: false,
-            allowed: ['127.0.0.1', '::1'],
+            allowed: ['*'],
         },
     },
     api: {
