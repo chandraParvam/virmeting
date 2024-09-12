@@ -20,7 +20,7 @@ module.exports = class Logger {
         this.timeEnd = null;
         this.timeElapsedMs = null;
         this.tzOptions = {
-            timeZone: process.env.TZ || config?.console?.timeZone || 'UTC',
+            timeZone: process.env.TZ || config?.console?.timeZone || 'Asia/Kolkata',
             hour12: false,
         };
     }
